@@ -19,7 +19,7 @@ object GraphPaint {
     document.addEventListener(
       "DOMContentLoaded",
       (event: Event) => {
-        document.querySelector("#app").appendChild(
+        document.querySelector("#graph-paint").appendChild(
           app
         )
       }
